@@ -24,7 +24,7 @@
 		<div class="feature">
 			<p><b>Authors: </b></p>
 			<!-- LOREM IPSUM is universally used. Lorem ipsum is dummy text, it does't really mean anything. Its used to fill space or for mockups. -->
-			<p><b>Abstract: </b> </p>
+			<p><b>Abstract: </b> Modern singing voice synthesis generates audios usually via a neural network-based vocoder converting spectral features predicted from musical scores to the time-domain waveforms. However, neural vocoders may suffer from phase problems that result in voice tremblings especially perceived in longer utterances of singing. Taking advantage of strong inductive biases provided in Differentiable Digital Signal Processing (DDSP), we proposed SawSing, intending to develop a DDSP-based singing vocoder that reconstructs a singing voice from a mel-spectrogram. SawSing synthesizes audio by adding the filtered sawtooth wave and the filtered noise where the filter coefficients are generated from the neural network. Benefiting from phase continuity and phase coherence, SawSing can generate favorable singing voices without glitches; it is also provided with the characteristics of lightweight and training efficiency.</p>
 		</div>
 		
 		<hr>
@@ -304,6 +304,13 @@
 			</table>
 		</div>
 		
+		<p style="line-height:0.5;font-size:18.5px">MOS results with 95% confidence intervals for the SVS experiment. Mel-spectrograms generated from </p> <p style="line-height:0.5;font-size:18.5px">the Tacotron2-based acoustic model were used as intermediate representations of singing voices.</p>
+		<figure>
+		    <img src="MOS_SVS.PNG"
+		         alt="web browser supports"
+		         style="width:45%">
+		</figure>
+
 		<p style="line-height:3.5em;"></p>
 		<hr>
 
