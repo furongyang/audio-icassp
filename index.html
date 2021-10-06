@@ -17,14 +17,14 @@
 <!-- THIS ACTUAL CONTENT BEGINS HERE...this is called a comment. which can only be seen when viewing the source code. This text CANNOT be seen by the browser. Its helpful when you need to place notes, comments or reminders in your code -->
 	<header>
 		<div class="header">
-			<h1>Audio Demos for "SawSing: A DDSP-based Singing Vocoder via Subtractive Sawtooth Waveform"</h1>
+			<h1>Audio Demos for "SawSing: A DDSP-based Singing Vocoder via Subtractive Sawtooth Waveform Synthesis"</h1>
 		</div>
 	</header>
 	<!-- END HEADER | the header element in new to HTML5 -->
 		<div class="feature">
-			<p><b>Authors: </b></p>
+			<!-- <p><b>Authors: </b></p> -->
 			<!-- LOREM IPSUM is universally used. Lorem ipsum is dummy text, it does't really mean anything. Its used to fill space or for mockups. -->
-			<p><b>Abstract: </b> Modern singing voice synthesis generates audios usually via a neural network-based vocoder converting spectral features predicted from musical scores to the time-domain waveforms. However, neural vocoders may suffer from phase problems that result in voice tremblings especially perceived in longer utterances of singing. Taking advantage of strong inductive biases provided in Differentiable Digital Signal Processing (DDSP), we proposed SawSing, intending to develop a DDSP-based singing vocoder that reconstructs a singing voice from a mel-spectrogram. SawSing synthesizes audio by adding the filtered sawtooth wave and the filtered noise where the filter coefficients are generated from the neural network. Benefiting from phase continuity and phase coherence, SawSing can generate favorable singing voices without glitches; it is also provided with the characteristics of lightweight and training efficiency.</p>
+			<p><b>Abstract: </b> Neural singing voice synthesis converts spectral features predicted from musical scores into waveforms using a neural network-based vocoder. However, neural vocoders that perform well on speech data may suffer from phase discontinuities which are more audible during the longer utterances contained in singing. Taking advantage of the strong inductive biases proposed in Differentiable Digital Signal Processing (DDSP), we propose SawSing, a DDSP-based singing vocoder that reconstructs a singing voice waveform from a mel-spectrogram. SawSing uses a neural network to tune the filter coefficients of subtractive sawtooth and Gaussian noise synthesizers. Because this architecture enforces phase continuity, SawSing can generate favorable singing voices without the characteristic phase-discontinuity glitch of other neural vocoders. It is also lightweight, interpretable, and training-efficient.</p>
 		</div>
 		
 		<hr>
